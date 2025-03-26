@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dmsans.variable} ${inter.className} font-medium antialiased flex flex-col min-h-screen`}
+        className={`${dmsans.variable} ${inter.className} font-medium antialiased flex flex-col min-h-screen dark:bg-gray-800 transition-all`}
       >
         <ThemeProvider
           attribute="class"

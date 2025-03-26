@@ -3,7 +3,6 @@ import { ChevronDown, MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import React from "react";
-import { Button } from "../ui/button";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -33,7 +32,7 @@ export default function Navbar() {
           >
             banquee.
           </Link>
-          <div className="flex gap-6">
+          <div className="hidden lg:flex gap-3 lg:gap-6">
             {navItems.map((item, i) => (
               <div
                 className="flex items-center gap-2 sm:gap-3 lg:gap-4"
@@ -61,7 +60,10 @@ export default function Navbar() {
               <button className="text-lg lg:text-xl font-bold text-[#5BB5A2] dark:text-[#d2fff5] cursor-pointer">
                 Login
               </button>
-              <Button className="cursor-pointer">Open Account</Button>
+
+              <button className="cursor-pointer bg-[#5bb5a2] py-1 sm:py-2 lg:py-3 px-2 sm:px-3 lg:px-4 text-[13px] sm:text-[15px] text-white rounded-[3px] lg:rounded-[6px]">
+                Open Account
+              </button>
             </div>
           </div>
         </nav>
