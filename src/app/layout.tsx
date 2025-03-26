@@ -6,12 +6,12 @@ import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "next-themes";
 
 // font
-export const dmsans = DM_Sans({
+const dmsans = DM_Sans({
   variable: "--dmsans",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
 });
-export const inter = Inter({
+const inter = Inter({
   variable: "--inter",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
