@@ -10,6 +10,7 @@ import badge6 from "../../../public/badge6.png";
 import badge7 from "../../../public/badge7.png";
 import badge8 from "../../../public/badge8.png";
 import currentbalance from "../../../public/currentbalance.png";
+import transactions from "../../../public/transactions.png";
 
 export default function Frontpage() {
   return (
@@ -218,6 +219,69 @@ export default function Frontpage() {
               <div className="max-w-[260px] sm:max-w-[320px] lg:max-w-full">
                 <Image
                   src={currentbalance}
+                  alt="moss"
+                  layout="intrainsic"
+                  className=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* send&receive money */}
+      <div className="moneytransfer">
+        <div className="contizer2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div className="left">
+              <h3 className="text-2xl sm:text-3xl lg:text-4xl text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:mb-4">
+                Send & receive <br className="hidden sm:block" />
+                money instantly
+              </h3>
+              <p className="text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8] mb-4 lg:mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et.
+              </p>
+              {/* advantages */}
+              <div className="flex flex-col gap-2 lg:gap-4 mb-8 lg:mb-16">
+                <h5 className="h5 flex items-center gap-2 text-[16px] sm:text-[18px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8]">
+                  <span className="inline-grid place-items-center w-[20px] sm:w-[24px] lg:w-[26px] h-[20px] sm:h-[24px] lg:h-[26px] rounded-full bg-[#5bb5a2]">
+                    <Check size={14} color="white" className="lg:hidden" />
+                    <Check
+                      size={18}
+                      color="white"
+                      className="hidden lg:block"
+                    />
+                  </span>
+                  Malesuada Ipsum
+                </h5>
+                <h5 className="h5 flex items-center gap-2 text-[16px] sm:text-[18px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8]">
+                  <span className="inline-grid place-items-center w-[20px] sm:w-[24px] lg:w-[26px] h-[20px] sm:h-[24px] lg:h-[26px] rounded-full bg-[#5bb5a2]">
+                    <Check size={14} color="white" className="lg:hidden" />
+                    <Check
+                      size={18}
+                      color="white"
+                      className="hidden lg:block"
+                    />
+                  </span>
+                  Vestibulum
+                </h5>
+                <h5 className="h5 flex items-center gap-2 text-[16px] sm:text-[18px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8]">
+                  <span className="inline-grid place-items-center w-[20px] sm:w-[24px] lg:w-[26px] h-[20px] sm:h-[24px] lg:h-[26px] rounded-full bg-[#5bb5a2]">
+                    <Check size={14} color="white" className="lg:hidden" />
+                    <Check
+                      size={18}
+                      color="white"
+                      className="hidden lg:block"
+                    />
+                  </span>
+                  Parturient Lorem
+                </h5>
+              </div>
+            </div>
+            <div className="right flex justify-center">
+              <div className="max-w-[260px] sm:max-w-[320px] lg:max-w-full">
+                <Image
+                  src={transactions}
                   alt="moss"
                   layout="intrainsic"
                   className=""
