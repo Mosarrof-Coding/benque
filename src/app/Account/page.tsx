@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 export default function Account() {
@@ -18,14 +17,7 @@ export default function Account() {
               Senectus et netus et malesuada fames ac turpis. Sagittis vitae et
               leo duis ut diam.
             </p>
-            <div className="mx-auto">
-              <Image
-                src=""
-                alt="Frame1 image"
-                layout="intrainsic"
-                className=""
-              />
-            </div>
+            <div className="mx-auto">moss</div>
           </div>
         </div>
       </div>

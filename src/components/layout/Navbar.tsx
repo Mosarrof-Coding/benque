@@ -17,7 +17,7 @@ export default function Navbar() {
     { name: "Support", href: "/support" },
     {
       name: "Blogs",
-      href: "/blogs",
+      href: "/Blogs",
       icon: <ChevronDown strokeWidth={2.25} className="w-4 lg:w-5" />,
     },
   ];

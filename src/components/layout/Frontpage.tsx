@@ -35,6 +35,10 @@ import applstor from "../../../public/Apple_store.png";
 import googlestor from "../../../public/google_store.png";
 import phone from "../../../public/phone.png";
 import mailing from "../../../public/mailing.png";
+// blog
+import blogImage from "../../../public/blogimg.png";
+import blogImage1 from "../../../public/blogimg1.png";
+import blogImage5 from "../../../public/blogimg5.png";
 
 import {
   Accordion,
@@ -156,7 +160,7 @@ export default function Frontpage() {
                 One banking.
               </h2>
               <div className="bankcards grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 lg:gap-6 xl:gap-8 mt-8 sm:mt-12 lg:mt-16">
-                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] rounded-[10px] lg:rounded-[16px]">
+                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
                     <Image src={badge3} alt="badge3" layout="intrinsic" />
                   </div>
@@ -164,13 +168,13 @@ export default function Frontpage() {
                     Instant <br />
                     transactions
                   </h5>
-                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 dark:text-white/80 leading-[1.2] sm:leading-[1.6] tracking-tight">
+                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 leading-[1.2] sm:leading-[1.6] tracking-tight">
                     Odio euismod lacinia at quis. Amet purus gravida quis
                     blandit turpis.
                   </p>
                 </div>
                 {/* ===== */}
-                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] rounded-[10px] lg:rounded-[16px]">
+                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
                     <Image src={badge4} alt="badge3" layout="intrinsic" />
                   </div>
@@ -179,13 +183,13 @@ export default function Frontpage() {
                     <br />
                     accounts
                   </h5>
-                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 dark:text-white/80 leading-[1.2] sm:leading-[1.6] tracking-tight">
+                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 leading-[1.2] sm:leading-[1.6] tracking-tight">
                     Odio euismod lacinia at quis. Amet purus gravida quis
                     blandit turpis.
                   </p>
                 </div>
                 {/* ===== */}
-                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] rounded-[10px] lg:rounded-[16px]">
+                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
                     <Image src={badge5} alt="badge3" layout="intrinsic" />
                   </div>
@@ -194,13 +198,13 @@ export default function Frontpage() {
                     <br />
                     banking
                   </h5>
-                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 dark:text-white/80 leading-[1.2] sm:leading-[1.6] tracking-tight">
+                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 leading-[1.2] sm:leading-[1.6] tracking-tight">
                     Odio euismod lacinia at quis. Amet purus gravida quis
                     blandit turpis.
                   </p>
                 </div>
                 {/* ===== */}
-                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] rounded-[10px] lg:rounded-[16px]">
+                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
                     <Image src={badge6} alt="badge3" layout="intrinsic" />
                   </div>
@@ -209,13 +213,13 @@ export default function Frontpage() {
                     <br />
                     statistics
                   </h5>
-                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 dark:text-white/80 leading-[1.2] sm:leading-[1.6] tracking-tight">
+                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 leading-[1.2] sm:leading-[1.6] tracking-tight">
                     Odio euismod lacinia at quis. Amet purus gravida quis
                     blandit turpis.
                   </p>
                 </div>
                 {/* ===== */}
-                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] rounded-[10px] lg:rounded-[16px]">
+                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
                     <Image src={badge7} alt="badge3" layout="intrinsic" />
                   </div>
@@ -224,13 +228,13 @@ export default function Frontpage() {
                     <br />
                     cards
                   </h5>
-                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 dark:text-white/80 leading-[1.2] sm:leading-[1.6] tracking-tight">
+                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 leading-[1.2] sm:leading-[1.6] tracking-tight">
                     Odio euismod lacinia at quis. Amet purus gravida quis
                     blandit turpis.
                   </p>
                 </div>
                 {/* ===== */}
-                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] rounded-[10px] lg:rounded-[16px]">
+                <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
                     <Image src={badge8} alt="badge3" layout="intrinsic" />
                   </div>
@@ -239,7 +243,7 @@ export default function Frontpage() {
                     <br />
                     payments
                   </h5>
-                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 dark:text-white/80 leading-[1.2] sm:leading-[1.6] tracking-tight">
+                  <p className="text-[14px] sm:text-[16px] text-[#1a191e] dark:text-white/90 leading-[1.2] sm:leading-[1.6] tracking-tight">
                     Odio euismod lacinia at quis. Amet purus gravida quis
                     blandit turpis.
                   </p>
@@ -251,7 +255,7 @@ export default function Frontpage() {
                 <Image
                   src={currentbalance}
                   alt="moss"
-                  layout="intrainsic"
+                  layout="intrinsic"
                   className=""
                 />
               </div>
@@ -314,7 +318,7 @@ export default function Frontpage() {
                 <Image
                   src={transactions}
                   alt="moss"
-                  layout="intrainsic"
+                  layout="intrinsic"
                   className=""
                 />
               </div>
@@ -358,7 +362,7 @@ export default function Frontpage() {
               <Image
                 src={Frame1}
                 alt="Frame1 image"
-                layout="intrainsic"
+                layout="intrinsic"
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -372,7 +376,7 @@ export default function Frontpage() {
               <Image
                 src={Frame2}
                 alt="Frame1 image"
-                layout="intrainsic"
+                layout="intrinsic"
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -386,7 +390,7 @@ export default function Frontpage() {
               <Image
                 src={Frame3}
                 alt="Frame1 image"
-                layout="intrainsic"
+                layout="intrinsic"
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -400,7 +404,7 @@ export default function Frontpage() {
               <Image
                 src={Frame4}
                 alt="Frame1 image"
-                layout="intrainsic"
+                layout="intrinsic"
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -414,7 +418,7 @@ export default function Frontpage() {
               <Image
                 src={Frame5}
                 alt="Frame1 image"
-                layout="intrainsic"
+                layout="intrinsic"
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -493,7 +497,7 @@ export default function Frontpage() {
               <Image
                 src={notifycard}
                 alt="Frame1 image"
-                layout="intrainsic"
+                layout="intrinsic"
                 className=""
               />
             </div>
@@ -508,7 +512,7 @@ export default function Frontpage() {
               <Image
                 src={Webflow_logo1}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -516,7 +520,7 @@ export default function Frontpage() {
               <Image
                 src={Shopify_1}
                 alt="Shopify_1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -524,7 +528,7 @@ export default function Frontpage() {
               <Image
                 src={Zapier_logo1}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -532,7 +536,7 @@ export default function Frontpage() {
               <Image
                 src={bitcoin}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -541,7 +545,7 @@ export default function Frontpage() {
               <Image
                 src={PayPal1}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -550,7 +554,7 @@ export default function Frontpage() {
               <Image
                 src={PayPal1}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -558,7 +562,7 @@ export default function Frontpage() {
               <Image
                 src={Mastercard}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -566,7 +570,7 @@ export default function Frontpage() {
               <Image
                 src={Visa_2021}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -574,7 +578,7 @@ export default function Frontpage() {
               <Image
                 src={Googlepay}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -582,7 +586,7 @@ export default function Frontpage() {
               <Image
                 src={Apple_Pay_logo1}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -590,7 +594,7 @@ export default function Frontpage() {
               <Image
                 src={Amazon_Pay_log1}
                 alt="Webflow_logo1"
-                layout="intrainsic"
+                layout="intrinsic"
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -651,31 +655,49 @@ export default function Frontpage() {
         </div>
       </div>
       {/* account */}
-      <div className="accountmain border-t-2 border-[#e8e8e8]">
+      <div className="accountmain border-t-2 border-[#e8e8e8] dark:border-white/10">
         <div className="contizer2">
           <div className="account pt-20 sm:pt-30 lg:pt-40">
-            <div className="contizer2">
-              <div className="max-w-[800px] mx-auto text-center">
-                <div className="">
-                  <h5 className="text-[18px] sm:font-[20px] text-[#1a191e] dark:text-white/90 leading-[1.2] tracking-tight mb-2 lg:mb-4">
-                    Account
-                  </h5>
-                  <h3 className="text-2xl sm:text-3xl lg:text-5xl xl:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-[-3%] mb-2 lg:mb-4">
-                    Perfect card <br />
-                    for your needs.
-                  </h3>
-                  <p className="p text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8] max-w-[500px] mx-auto">
-                    Senectus et netus et malesuada fames ac turpis. Sagittis
-                    vitae et leo duis ut diam.
-                  </p>
-                  <div className="w-fit mx-auto mt-8 sm:mt-10 lg:mt-14">
-                    <Image
-                      src={cardgroup}
-                      alt="cardgroup image"
-                      layout="intrainsic"
-                      className=""
-                    />
-                  </div>
+            <div className="max-w-[800px] mx-auto text-center">
+              <h5 className="text-[18px] sm:font-[20px] text-[#1a191e] dark:text-white/90 leading-[1.2] tracking-tight mb-2 lg:mb-4">
+                Account
+              </h5>
+              <h3 className="text-2xl sm:text-3xl lg:text-5xl xl:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-[-3%] mb-2 lg:mb-4">
+                Perfect card <br />
+                for your needs.
+              </h3>
+              <p className="p text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8] max-w-[500px] mx-auto">
+                Senectus et netus et malesuada fames ac turpis. Sagittis vitae
+                et leo duis ut diam.
+              </p>
+              <div className="w-fit mx-auto mt-8 sm:mt-10 lg:mt-14">
+                <Image
+                  src={cardgroup}
+                  alt="cardgroup image"
+                  layout="intrinsic"
+                  className=""
+                />
+                {/* button */}
+                <div className="mybutton w-fit mx-auto flex items-center flex-wrap gap-4 mt-8 sm:mt-10 lg:mt-14">
+                  <Link
+                    href="/account"
+                    className="ctabtn inline-block py-1 sm:py-2 lg:py-3 xl:py-4 px-2 sm:px-3 lg:px-4 xl:px-6 bg-[#5bb5a2] rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-white tracking-tight"
+                  >
+                    Open Account
+                  </Link>
+                  <button className="ctabtn cursor-pointer py-1 sm:py-2 lg:py-3 xl:py-4 px-2 sm:px-3 lg:px-4 xl:px-6 border border-[#e8e8e8] dark:border-[#5bb5a2] rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight leading-1">
+                    <span className="inline-flex items-center gap-1 lg:gap-2">
+                      Compare Card
+                      <ArrowRight
+                        size={22}
+                        className="text-[#5bb5a2] lg:hidden"
+                      />
+                      <ArrowRight
+                        size={24}
+                        className="text-[#5bb5a2] hidden lg:block"
+                      />
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -704,7 +726,7 @@ export default function Frontpage() {
                     <Image
                       src={star}
                       alt="star"
-                      layout="intrainsic"
+                      layout="intrinsic"
                       className=""
                     />
                   </div>
@@ -721,11 +743,11 @@ export default function Frontpage() {
           {/* usercard */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 xl:gap-8 mt-8 sm:mt-10 lg:mt-14 xl:mt-16">
             <div className="flex flex-col gap-4 lg:gap-6 xl:gap-8 sm:order-2 lg:order-1 max-h-fit">
-              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8]">
+              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8] dark:border-white/30">
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrainsic"
+                  layout="intrinsic"
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -741,16 +763,16 @@ export default function Frontpage() {
                   <h5 className="text-[16px] lg:text-[18px] text-[#1a191e] dark:text-white/60 ">
                     Cody Fisher
                   </h5>
-                  <p className="text-[14px] text-[#1a191e80] dark:text-[#ea3d3f] ">
+                  <p className="text-[14px] text-[#1a191e80] dark:text-white/70 ">
                     Medical Assistant
                   </p>
                 </div>
               </div>
-              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8]">
+              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8] dark:border-white/30">
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrainsic"
+                  layout="intrinsic"
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -766,18 +788,18 @@ export default function Frontpage() {
                   <h5 className="text-[16px] lg:text-[18px] text-[#1a191e] dark:text-white/60 ">
                     Cody Fisher
                   </h5>
-                  <p className="text-[14px] text-[#1a191e80] dark:text-[#ea3d3f] ">
+                  <p className="text-[14px] text-[#1a191e80] dark:text-white/70 ">
                     Medical Assistant
                   </p>
                 </div>
               </div>
             </div>
             <div className="flex flex-col gap-4 lg:gap-6 xl:gap-8 sm:order-1 lg:order-2 max-h-fit">
-              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8]">
+              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8] dark:border-white/30">
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrainsic"
+                  layout="intrinsic"
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -797,16 +819,16 @@ export default function Frontpage() {
                   <h5 className="text-[16px] lg:text-[18px] text-[#1a191e] dark:text-white/60 ">
                     Jenny Wilson
                   </h5>
-                  <p className="text-[14px] text-[#1a191e80] dark:text-[#ea3d3f] ">
+                  <p className="text-[14px] text-[#1a191e80] dark:text-white/70 ">
                     Nursing Assistant
                   </p>
                 </div>
               </div>
-              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8]">
+              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8] dark:border-white/30">
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrainsic"
+                  layout="intrinsic"
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -822,18 +844,18 @@ export default function Frontpage() {
                   <h5 className="text-[16px] lg:text-[18px] text-[#1a191e] dark:text-white/60 ">
                     Cody Fisher
                   </h5>
-                  <p className="text-[14px] text-[#1a191e80] dark:text-[#ea3d3f] ">
+                  <p className="text-[14px] text-[#1a191e80] dark:text-white/70 ">
                     Medical Assistant
                   </p>
                 </div>
               </div>
             </div>
             <div className="flex flex-col gap-4 lg:gap-6 xl:gap-8 sm:order-3 lg:order-3 max-h-fit">
-              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8]">
+              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8] dark:border-white/30">
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrainsic"
+                  layout="intrinsic"
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -850,16 +872,16 @@ export default function Frontpage() {
                   <h5 className="text-[16px] lg:text-[18px] text-[#1a191e] dark:text-white/60 ">
                     Guy Hawkins
                   </h5>
-                  <p className="text-[14px] text-[#1a191e80] dark:text-[#ea3d3f] ">
+                  <p className="text-[14px] text-[#1a191e80] dark:text-white/70 ">
                     President of Sales
                   </p>
                 </div>
               </div>
-              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8]">
+              <div className="userCard p-2 sm:p-4 lg:p-6 xl:p-8 rounded-[5px] sm:rounded-[10px] border-2 border-[#e8e8e8] dark:border-white/30">
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrainsic"
+                  layout="intrinsic"
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -875,7 +897,7 @@ export default function Frontpage() {
                   <h5 className="text-[16px] lg:text-[18px] text-[#1a191e] dark:text-white/60 ">
                     Dianne Russell
                   </h5>
-                  <p className="text-[14px] text-[#1a191e80] dark:text-[#ea3d3f] ">
+                  <p className="text-[14px] text-[#1a191e80] dark:text-white/70 ">
                     Medical Assistant
                   </p>
                 </div>
@@ -889,16 +911,16 @@ export default function Frontpage() {
         <div className="contizer2">
           <div className="bg-[#5bb5a2] rounded-lg sm:rounded-xl lg:rounded-2xl flex flex-col md:flex-row gap-2 sm:gap-4 lg:gap-8 xl:gap-16">
             <div className="left w-full py-6 md:py-8 lg:py-12 xl:py-24 px-2 sm:px-4 lg:px-8 xl:pl-[76px]">
-              <h3 className="text-2xl sm:text-3xl lg:text-5xl xl:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-[-3%] mb-2 lg:mb-4">
+              <h3 className="text-2xl sm:text-3xl lg:text-5xl xl:text-[64px] text-white leading-[1.1] tracking-[-3%] mb-2 lg:mb-4">
                 One app. <br /> One banking
               </h3>
-              <p className=" text-[16px] sm:text-[18px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8] mb-4 sm:mb-6 lg:mb-8">
+              <p className=" text-[16px] sm:text-[18px] text-white leading-[1.4] lg:leading-[1.8] mb-4 sm:mb-6 lg:mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna.
               </p>
               <div className="flex flex-wrap gap-2 sm:gap-4 lg:gap-6 xl:gap-8 mb-6 sm:mb-8 lg:mb-12">
                 <div className="flex flex-col gap-2 lg:gap-4 w-fit">
-                  <p className="text-[15px] sm:text-[16px] flex items-center gap-2 text-white">
+                  <div className="text-[15px] sm:text-[16px] flex items-center gap-2 text-white">
                     <div className="inline-grid place-items-center w-[20px] sm:w-[24px] lg:w-[26px] h-[20px] sm:h-[24px] lg:h-[26px] rounded-full bg-[#ffffff20]">
                       <Check size={14} color="white" className="lg:hidden" />
                       <Check
@@ -908,8 +930,8 @@ export default function Frontpage() {
                       />
                     </div>
                     Instant transation
-                  </p>
-                  <p className="text-[15px] sm:text-[16px] flex items-center gap-2 text-white">
+                  </div>
+                  <div className="text-[15px] sm:text-[16px] flex items-center gap-2 text-white">
                     <div className="inline-grid place-items-center w-[20px] sm:w-[24px] lg:w-[26px] h-[20px] sm:h-[24px] lg:h-[26px] rounded-full bg-[#ffffff20]">
                       <Check size={14} color="white" className="lg:hidden" />
                       <Check
@@ -919,10 +941,10 @@ export default function Frontpage() {
                       />
                     </div>
                     Saving Accounts
-                  </p>
+                  </div>
                 </div>
                 <div className="flex flex-col gap-2 lg:gap-4 w-fit">
-                  <p className="text-[15px] sm:text-[16px] flex items-center gap-2 text-white">
+                  <div className="text-[15px] sm:text-[16px] flex items-center gap-2 text-white">
                     <div className="inline-grid place-items-center w-[20px] sm:w-[24px] lg:w-[26px] h-[20px] sm:h-[24px] lg:h-[26px] rounded-full bg-[#ffffff20]">
                       <Check size={14} color="white" className="lg:hidden" />
                       <Check
@@ -932,8 +954,8 @@ export default function Frontpage() {
                       />
                     </div>
                     Payment worldwide
-                  </p>
-                  <p className="text-[15px] sm:text-[16px] flex items-center gap-2 text-white">
+                  </div>
+                  <div className="text-[15px] sm:text-[16px] flex items-center gap-2 text-white">
                     <div className="inline-grid place-items-center w-[20px] sm:w-[24px] lg:w-[26px] h-[20px] sm:h-[24px] lg:h-[26px] rounded-full bg-[#ffffff20]">
                       <Check size={14} color="white" className="lg:hidden" />
                       <Check
@@ -943,7 +965,7 @@ export default function Frontpage() {
                       />
                     </div>
                     100% mobile banking
-                  </p>
+                  </div>
                 </div>
               </div>
               {/* ctabtns */}
@@ -1103,6 +1125,103 @@ export default function Frontpage() {
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* fetchblog */}
+      <div className="blogmain py-10 sm:py-30 lg:py-40 border-t border-[#e8e8e8] dark:border-white/10">
+        <div className="contizer2">
+          <div className="flex justify-between">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl xl:text-[80px] leading-[1.1] text-[#1a191e] dark:text-white">
+              Blog
+            </h1>
+            {/* button */}
+            <button className="ctabtn rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight self-end">
+              <span className="cursor-pointer inline-flex items-center gap-1 lg:gap-2">
+                All Features
+                <ArrowRight size={16} className="text-[#5bb5a2] lg:hidden" />
+                <ArrowRight
+                  size={20}
+                  className="text-[#5bb5a2] hidden lg:block"
+                />
+              </span>
+            </button>
+          </div>
+          <div className="blogcontent grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mt-6 sm:mt-10 lg:mt-14 xl:mt-16">
+            <div className="blocard">
+              <Image
+                src={blogImage1}
+                alt="blogimg1 image"
+                layout="intrinsic"
+                className="mx-auto"
+              />
+              <div className="mt-3 lg:mt-6">
+                <h4 className="h4 text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white/90 mb-2">
+                  10 Things Nobody Told You About Banko
+                </h4>
+                <p className=" text-[16px] leading-[1.6] text-[#1a191e] dark:text-white/80">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dui accumsan sit amet nulla facilisi morbi.
+                </p>
+                <ul className="flex gap-2 mt-6">
+                  <li className="bg-[#f8f8f8] rounded-[2px] lg:rounded-[4px] py-1 px-2.5  text-[11px] md:text-[13px] text-[#1a191e] cursor-pointer">
+                    Technology
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="blocard">
+              <Image
+                src={blogImage5}
+                alt="blogimg5 image"
+                layout="intrinsic"
+                className="mx-auto"
+              />
+              <div className="mt-3 lg:mt-6">
+                <h4 className="h4 text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white/90 mb-2">
+                  7 Things About Banko Your Friends Want To Know
+                </h4>
+                <p className=" text-[16px] leading-[1.6] text-[#1a191e] dark:text-white/80">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dui accumsan sit amet nulla facilisi morbi.
+                </p>
+                <ul className="flex gap-2 mt-6">
+                  <li className="bg-[#f8f8f8] rounded-[2px] lg:rounded-[4px] py-1 px-2.5  text-[11px] md:text-[13px] text-[#1a191e] cursor-pointer">
+                    technology
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="blocard">
+              <Link href={`Blogs/${"Blog"}`}>
+                <Image
+                  src={blogImage}
+                  alt="blogimg image"
+                  layout="intrinsic"
+                  className="rounded-xl overflow-hidden mx-auto"
+                />
+              </Link>
+              <div className="mt-3 lg:mt-6">
+                <h4 className="h4 text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white/90 mb-2">
+                  How To Start Using Banko For Your Startup
+                </h4>
+                <p className=" text-[16px] leading-[1.6] text-[#1a191e] dark:text-white/80">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Dui accumsan sit amet nulla facilisi morbi.
+                </p>
+                <ul className="flex gap-2 mt-6">
+                  <li className="bg-[#f8f8f8] rounded-[2px] lg:rounded-[4px] py-1 px-2.5  text-[11px] md:text-[13px] text-[#1a191e] cursor-pointer">
+                    App
+                  </li>
+                  <li className="bg-[#f8f8f8] rounded-[2px] lg:rounded-[4px] py-1 px-2.5  text-[11px] md:text-[13px] text-[#1a191e] cursor-pointer">
+                    Technology
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
