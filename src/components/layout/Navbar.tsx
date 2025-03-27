@@ -61,9 +61,12 @@ export default function Navbar() {
                 Login
               </button>
 
-              <button className="cursor-pointer bg-[#5bb5a2] py-1 sm:py-2 lg:py-3 px-2 sm:px-3 lg:px-4 text-[13px] sm:text-[15px] text-white rounded-[3px] lg:rounded-[6px]">
+              <Link
+                href="/Account"
+                className="cursor-pointer bg-[#5bb5a2] py-1 sm:py-2 lg:py-3 px-2 sm:px-3 lg:px-4 text-[13px] sm:text-[15px] text-white rounded-[3px] lg:rounded-[6px]"
+              >
                 Open Account
-              </button>
+              </Link>
             </div>
           </div>
         </nav>
