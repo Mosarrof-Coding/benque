@@ -156,7 +156,7 @@ export default function Footer() {
       </nav>
       <div className="copyright pt-4 max-w-[832px] lg:max-w-[1032px] xl:max-w-[1432px] px-4 mx-auto">
         <div className="powerd flex flex-col sm:flex-row justify-between flex-wrap gap-2">
-          <p className="text-[14px] font-medium leading-[1.6] text-[#1a191e80] dark:text-white">
+          <p className="text-[12px] sm:text-[14px] font-medium leading-[1.6] text-[#1a191e80] dark:text-white">
             © Made by{" "}
             <span className="text-[#5bb5a2]">
               <a
@@ -178,7 +178,7 @@ export default function Footer() {
               </a>
             </span>
           </p>
-          <ul className="text-[14px] font-medium leading-[1.6] text-[#1a191e80] flex gap-4 lg:gap-8 dark:text-white">
+          <ul className="text-[10px] sm:text-[14px] font-medium leading-[1.6] text-[#1a191e80] flex gap-4 lg:gap-8 dark:text-white">
             <li className="cursor-pointer">Impressum</li>
             <li className="cursor-pointer">Mission</li>
           </ul>
