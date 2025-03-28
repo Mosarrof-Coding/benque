@@ -44,7 +44,7 @@ function AccordionTrigger({
         <Plus className="transition-all text-[#5bb5a2] hidden lg:block" />
         <Plus
           className="transition-all text-[#5bb5a2] block lg:hidden"
-          size={14}
+          size={18}
         />
       </AccordionPrimitive.Trigger>
     </AccordionPrimitive.Header>

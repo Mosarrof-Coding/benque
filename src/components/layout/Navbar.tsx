@@ -24,7 +24,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="bg-[#fff] dark:bg-[#2d2d2d] border-b py-2 lg:py-4">
+    <div className="bg-[#fff] dark:bg-[#2d2d2d] border-b border-[#1a191e08] py-2 lg:py-4">
       <div className="contizer cont-px">
         <nav className="navmain flex items-center justify-between">
           <Link

@@ -689,7 +689,7 @@ export default function Features() {
             {/* shad Accrodion */}
             <div className="col-span-12 md:col-span-8 lg:col-span-6">
               <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="item-1" className="">
+                <AccordionItem value="item-6" className="">
                   <AccordionTrigger className="accrodionBtn text-[16px] sm:text-[18px] lg:text-[20px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white mb-2 lg:mb-4 cursor-pointer">
                     How do I open an Banko account?
                   </AccordionTrigger>
@@ -699,7 +699,7 @@ export default function Features() {
                     corporis hic dolorum animi?
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-2" className="">
+                <AccordionItem value="item-7" className="">
                   <AccordionTrigger className="accrodionBtn text-[16px] sm:text-[18px] lg:text-[20px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white my-2 lg:my-4 cursor-pointer">
                     How do I order a new card?
                   </AccordionTrigger>
@@ -709,7 +709,7 @@ export default function Features() {
                     corporis hic dolorum animi?
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-3" className="">
+                <AccordionItem value="item-8" className="">
                   <AccordionTrigger className="accrodionBtn text-[16px] sm:text-[18px] lg:text-[20px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white my-2 lg:my-4 cursor-pointer">
                     How to change my account limits?
                   </AccordionTrigger>
@@ -719,7 +719,7 @@ export default function Features() {
                     corporis hic dolorum animi?
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-4" className="">
+                <AccordionItem value="item-9" className="">
                   <AccordionTrigger className="accrodionBtn text-[16px] sm:text-[18px] lg:text-[20px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white my-2 lg:my-4 cursor-pointer">
                     How does Banko premium works?
                   </AccordionTrigger>
@@ -731,7 +731,7 @@ export default function Features() {
                     parturient.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-5" className="">
+                <AccordionItem value="item-10" className="">
                   <AccordionTrigger className="accrodionBtn text-[16px] sm:text-[18px] lg:text-[20px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white my-2 lg:my-4 cursor-pointer">
                     Can I have two Banko accounts?
                   </AccordionTrigger>

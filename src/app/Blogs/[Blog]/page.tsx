@@ -118,12 +118,12 @@ export default function Blog() {
       {/* fetchblog */}
       <div className="blogmain py-10 sm:py-30 lg:py-40 border-t border-[#e8e8e8] dark:border-white/10">
         <div className="contizer2">
-          <div className="flex justify-between">
-            <h1 className="text-3xl sm:text-4xl lg:text-6xl xl:text-[80px] leading-[1.1] text-[#1a191e] dark:text-white">
+          <div className="flex justify-between gap-4 flex-wrap">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-[80px] leading-[1.1] text-[#1a191e] dark:text-white">
               Related Articles
             </h1>
             {/* button */}
-            <button className="ctabtn rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight self-end">
+            <button className="ctabtn rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight sm:self-end">
               <span className="cursor-pointer inline-flex items-center gap-1 lg:gap-2">
                 All Features
                 <ArrowRight size={16} className="text-[#5bb5a2] lg:hidden" />
