@@ -32,7 +32,7 @@ export const metadata = {
     title: "Banquee - Next-Gen Banking for Everyone",
     description:
       "Experience seamless and modern banking with Banquee. Secure, fast, and tailored for you.",
-    url: "https://yourwebsite.com", // Replace with actual URL
+    url: "benque.vercel.app", // Replace with actual URL
     type: "website",
     images: [
       {
