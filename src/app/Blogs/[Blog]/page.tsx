@@ -182,7 +182,7 @@ export default function Blog() {
               </div>
             </div>
             <div className="blocard">
-              <Link href={`Blogs/${"Blog"}`}>
+              <Link href="/">
                 <Image
                   src={blogImage}
                   alt="blogimg image"

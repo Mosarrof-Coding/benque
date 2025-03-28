@@ -123,7 +123,7 @@ export default function Frontpage() {
                   Open Account
                 </Link>
                 <button className="ctabtn py-1 sm:py-2 lg:py-3 xl:py-4 px-2 sm:px-3 lg:px-4 xl:px-6 dark:border dark:border-[#5bb5a2] rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight">
-                  <span className="cursor-pointer inline-flex items-center gap-1 lg:gap-2">
+                  <span className="cursor-pointer inline-flex items-center gap-1 lg:gap-2 leading-[1]">
                     Compare Card
                     <ArrowRight
                       size={22}
@@ -512,7 +512,9 @@ export default function Frontpage() {
               <Image
                 src={Webflow_logo1}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -520,7 +522,9 @@ export default function Frontpage() {
               <Image
                 src={Shopify_1}
                 alt="Shopify_1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -528,7 +532,9 @@ export default function Frontpage() {
               <Image
                 src={Zapier_logo1}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -536,7 +542,9 @@ export default function Frontpage() {
               <Image
                 src={bitcoin}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -545,7 +553,9 @@ export default function Frontpage() {
               <Image
                 src={PayPal1}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -554,7 +564,9 @@ export default function Frontpage() {
               <Image
                 src={PayPal1}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -562,7 +574,9 @@ export default function Frontpage() {
               <Image
                 src={Mastercard}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -570,7 +584,9 @@ export default function Frontpage() {
               <Image
                 src={Visa_2021}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -578,7 +594,9 @@ export default function Frontpage() {
               <Image
                 src={Googlepay}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -586,7 +604,9 @@ export default function Frontpage() {
               <Image
                 src={Apple_Pay_logo1}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -594,7 +614,9 @@ export default function Frontpage() {
               <Image
                 src={Amazon_Pay_log1}
                 alt="Webflow_logo1"
-                layout="intrinsic"
+                // layout="intrinsic"
+                width={0}
+                height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
               />
             </div>
@@ -608,14 +630,14 @@ export default function Frontpage() {
                 Seemless <br className="" />
                 integration
               </h3>
-              <p className="p text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8] mb-4 sm:mb-6 lg:mb-8">
+              <p className="p text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
             </div>
             {/* advantages */}
-            <div className="flex justify-center items-end">
-              <div className="flex flex-col gap-2 lg:gap-4 mb-6 sm;mb-8 lg:mb-12">
+            <div className="flex md:justify-center md:items-end">
+              <div className="flex flex-col gap-2 lg:gap-4">
                 <h5 className="h5 flex items-center gap-2 text-[16px] sm:text-[18px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8]">
                   <span className="inline-grid place-items-center w-[20px] sm:w-[24px] lg:w-[26px] h-[20px] sm:h-[24px] lg:h-[26px] rounded-full bg-[#5bb5a2]">
                     <Check size={14} color="white" className="lg:hidden" />

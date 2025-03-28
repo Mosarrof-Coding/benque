@@ -4,6 +4,8 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { ThemeProvider } from "next-themes";
+import { Suspense } from "react";
+import NotFound from "./not-found";
 
 // font
 const dmsans = DM_Sans({
@@ -42,7 +44,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">
+            <Suspense fallback={<NotFound />}>{children}</Suspense>
+          </main>
           <Footer />
         </ThemeProvider>
       </body>

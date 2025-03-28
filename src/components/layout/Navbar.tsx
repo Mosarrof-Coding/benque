@@ -23,14 +23,14 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="bg-[#fff] dark:bg-[#2d2d2d] py-2 lg:py-4">
+    <div className="bg-[#fff] dark:bg-[#2d2d2d] border-b py-2 lg:py-4">
       <div className="contizer cont-px">
         <nav className="navmain flex items-center justify-between">
           <Link
             href="/"
             className="logo text-2xl lg:text-3xl font-bold text-[#5BB5A2] dark:text-[#d2fff5]"
           >
-            banquee.
+            banquee
           </Link>
           <div className="hidden lg:flex gap-3 lg:gap-6">
             {navItems.map((item, i) => (
@@ -57,7 +57,7 @@ export default function Navbar() {
                   <SunIcon className="w-4 lg:w-5" color="#fff" />
                 )}
               </div>
-              <button className="text-lg lg:text-xl font-bold text-[#5BB5A2] dark:text-[#d2fff5] cursor-pointer">
+              <button className="text-base sm:text-lg lg:text-xl font-bold text-[#5BB5A2] dark:text-[#d2fff5] cursor-pointer">
                 Login
               </button>
 
