@@ -8,7 +8,7 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme();
 
   const navItems = [
-    { name: "Features", href: "/" },
+    { name: "Features", href: "/features" },
     {
       name: "Compare",
       href: "/compare",

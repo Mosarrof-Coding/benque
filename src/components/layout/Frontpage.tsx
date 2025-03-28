@@ -1054,7 +1054,7 @@ export default function Frontpage() {
                   </p>
                 </div>
               </div>
-              <div className="phone flex items-center gap-3 lg:gap-6 mb-6 sm:mb-8 lg:mb-12">
+              <div className="mail flex items-center gap-3 lg:gap-6 mb-6 sm:mb-8 lg:mb-12">
                 <Image
                   src={mailing}
                   alt="mailing image"
