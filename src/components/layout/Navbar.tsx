@@ -3,10 +3,13 @@ import { AlignJustify, ChevronDown, MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import React, { useState } from "react";
+import MegaMenu from "../dropdown/MegaMenu";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathName = usePathname();
 
   const navItems = [
     { name: "Features", href: "/features" },
@@ -19,6 +22,8 @@ export default function Navbar() {
     {
       name: "Blogs",
       href: "/Blogs",
+      className: "cursor-pointer",
+      hasDropdown: true, // Flag to indicate a dropdown
       icon: <ChevronDown strokeWidth={2.25} className="w-4 lg:w-5" />,
     },
   ];
@@ -39,10 +44,19 @@ export default function Navbar() {
                 className="flex items-center gap-1 sm:gap-2 lg:gap-4"
                 key={i}
               >
-                <Link href={item.href} className="navlist">
-                  {item.name}
-                  {item.icon && item.icon}
-                </Link>
+                {item.hasDropdown ? (
+                  <MegaMenu />
+                ) : (
+                  <Link
+                    href={item.href}
+                    className={`py-1.5 px-2 lg:p-[8px_8px_8px_12px] hover:bg-[#eee] dark:hover:bg-[#ffffff32] text-[#1a191e] dark:text-white rounded-[3px] lg:rounded-[6px] flex items-center gap-1 sm:gap-2 ${
+                      pathName === item.href ? "bg-[#eee]" : ""
+                    }`}
+                  >
+                    {item.name}
+                    {item.icon && item.icon}
+                  </Link>
+                )}
               </div>
             ))}
           </div>

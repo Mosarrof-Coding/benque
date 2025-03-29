@@ -36,7 +36,7 @@ import { ArrowRight, Check } from "lucide-react";
 
 export default function Features() {
   return (
-    <section className="flex flex-col gap-10 sm:gap-20 lg:gap-30 xl:gap-40 pb-40 text-[#1a191e] dark:text-white/90">
+    <section className="flex flex-col gap-10 sm:gap-20 lg:gap-30 xl:gap-40 pb-10 sm:pb-20 lg:pb-30 xl:pb-40 text-[#1a191e] dark:text-white/90">
       {/* hero */}
       <div className="bg-[#e8f2ee] dark:bg-gray-600">
         <div className="max-w-[832px] px-4 mx-auto text-center xl:min-h-[58vh] py-14 md:py-18 lg:py-20 xl:pt-28">
@@ -88,12 +88,12 @@ export default function Features() {
       </div>
 
       {/* transaction */}
-      <div className="contizer2 grid grid-cols-1 sm:grid-cols-2 items-center gap-0">
+      <div className="contizer2 grid grid-cols-1 sm:grid-cols-2 items-center ">
         <div className="cmnHeading">
           <h5 className="text-[18px] sm:font-[20px] text-[#1a191e] dark:text-white/90 leading-[1.2] tracking-tight mb-1 lg:mb-2">
             Transation
           </h5>
-          <h2 className="text-3xl md:text-5xl lg:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:4">
+          <h2 className="text-3xl md:text-5xl lg:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:mb-4">
             Send & receive money instantly
           </h2>
           <p className="p text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8] mb-4 lg:mb-8">
@@ -126,12 +126,13 @@ export default function Features() {
             </h5>
           </div>
         </div>
-        <div className="p-0 md:pr-[40px] lg:pr-[80px] xl:pr-[110px] flex justify-center sm:justify-end">
+        <div className="p-0 md:pr-[40px] lg:pr-[80px] xl:pr-[110px] pl-4 flex justify-center sm:justify-end">
           <div className="w-fit">
             <Image
               src={appimg}
               alt="appimg image"
-              layout="intrinsic"
+              width={0}
+              height={0}
               className="tranImage"
             />
           </div>
@@ -139,13 +140,13 @@ export default function Features() {
       </div>
 
       {/* cards */}
-      <div className="contizer2 grid grid-cols-1 sm:grid-cols-2 items-center gap-0">
+      <div className="contizer2 grid grid-cols-1 sm:grid-cols-2 items-center ">
         <div className="cmnHeading">
           <h5 className="text-[18px] sm:font-[20px] text-[#1a191e] dark:text-white/90 leading-[1.2] tracking-tight mb-1 lg:mb-2">
             Cards
           </h5>
 
-          <h2 className="text-3xl md:text-5xl lg:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:4">
+          <h2 className="text-3xl md:text-5xl lg:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:mb-4">
             Manage <br className="hidden lg:block" /> Your Account
           </h2>
           <p className="p text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8] mb-4 lg:mb-8">
@@ -178,23 +179,24 @@ export default function Features() {
             </h5>
           </div>
         </div>
-        <div className="p-0 md:pr-[40px] lg:pr-[80px] xl:pr-[110px] flex justify-center sm:justify-end">
+        <div className="p-0 md:pr-[40px] lg:pr-[80px] xl:pr-[110px] pl-4 flex justify-center sm:justify-end">
           <Image
             src={appimg1}
             alt="appimg image"
-            layout="intrinsic"
+            width={0}
+            height={0}
             className="tranImage"
           />
         </div>
       </div>
 
       {/* statistics */}
-      <div className="contizer2 grid grid-cols-1 sm:grid-cols-2 items-center gap-0">
+      <div className="contizer2 grid grid-cols-1 sm:grid-cols-2 items-center ">
         <div className="cmnHeading">
           <h5 className="text-[18px] sm:font-[20px] text-[#1a191e] dark:text-white/90 leading-[1.2] tracking-tight mb-1 lg:mb-2">
             Advanched Statistics
           </h5>
-          <h2 className="text-3xl md:text-5xl lg:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:4">
+          <h2 className="text-3xl md:text-5xl lg:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:mb-4">
             Keep control over your money
           </h2>
           <p className="p text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white leading-[1.4] lg:leading-[1.8] mb-4 lg:mb-8">
@@ -227,23 +229,24 @@ export default function Features() {
             </h5>
           </div>
         </div>
-        <div className="p-0 md:pr-[40px] lg:pr-[80px] xl:pr-[110px] flex justify-center sm:justify-end">
+        <div className="p-0 md:pr-[40px] lg:pr-[80px] xl:pr-[110px] pl-4 flex justify-center sm:justify-end">
           <Image
             src={appimg2}
             alt="appimg image"
-            layout="intrinsic"
+            width={0}
+            height={0}
             className="tranImage"
           />
         </div>
       </div>
 
       {/* saving account */}
-      <div className="contizer2 grid grid-cols-1 sm:grid-cols-2 items-center gap-0">
+      <div className="contizer2 grid grid-cols-1 sm:grid-cols-2 items-center ">
         <div className="cmnHeading">
           <h5 className="text-[18px] sm:font-[20px] text-[#1a191e] dark:text-white/90 leading-[1.2] tracking-tight mb-1 lg:mb-2">
             Saving Accounts
           </h5>
-          <h2 className="text-3xl md:text-5xl lg:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:4">
+          <h2 className="text-3xl md:text-5xl lg:text-[64px] text-[#1a191e] dark:text-white leading-[1.1] tracking-tight mb-2 lg:mb-4">
             Lorem et
             <br className="hidden lg:block" />
             ipsum dolor
@@ -278,11 +281,12 @@ export default function Features() {
             </h5>
           </div>
         </div>
-        <div className="p-0 md:pr-[40px] lg:pr-[80px] xl:pr-[110px] flex justify-center sm:justify-end">
+        <div className="p-0 md:pr-[40px] lg:pr-[80px] xl:pr-[110px] pl-4 flex justify-center sm:justify-end">
           <Image
             src={appimg2}
             alt="appimg image"
-            layout="intrinsic"
+            width={0}
+            height={0}
             className="tranImage"
           />
         </div>
@@ -444,14 +448,14 @@ export default function Features() {
         </div>
         <div className="membershipcard max-w-[746px] lg:max-w-full mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-10 xl:gap-14">
           <div className="membercard text-center">
-            <h6 className="price text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight">
+            <h5 className="price text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight">
               Basic
               <span className="priceCategory">Popular</span>
-            </h6>
+            </h5>
             <h3 className="h3 mb-2 text-[24px] sm:text-[28px] lg:text-[32px] xl:text-[40px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight">
               Free
             </h3>
-            <p className="max-w-[300px] mx-auto">
+            <p className="max-w-[300px] mx-auto text-[14px] sm:text-[16px] text-[#1a191e80] dark:text-white/80 leading-[1.6]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
             <div className="mb-6 w-fit mx-auto pt-5 lg:pt-6">
@@ -477,7 +481,7 @@ export default function Features() {
                 per month
               </span>
             </h3>
-            <p className="max-w-[300px] mx-auto">
+            <p className="max-w-[300px] mx-auto text-[14px] sm:text-[16px] text-[#1a191e80] dark:text-white/80 leading-[1.6]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
             <div className="mb-6 w-fit mx-auto pt-5 lg:pt-6">
@@ -503,7 +507,7 @@ export default function Features() {
                 per month
               </span>
             </h3>
-            <p className="max-w-[300px] mx-auto">
+            <p className="max-w-[300px] mx-auto text-[14px] sm:text-[16px] text-[#1a191e80] dark:text-white/80 leading-[1.6]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>
             <div className="mb-6 w-fit mx-auto pt-5 lg:pt-6">
