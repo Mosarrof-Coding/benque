@@ -31,7 +31,7 @@ export default function Blog() {
             </p>
           </div>
           <div className="mt-8 sm:mt-12 lg:mt-16 max-w-[1000px]">
-            <Image src={detailcard} alt="blogcard image" layout="intrinsic" />
+            <Image src={detailcard} alt="blogcard image" width={0} height={0} />
             <div className="cardinfo flex flex-col gap-8 pt-16">
               <h4 className="h4 text-[24px] lg:text-[28px] leading-[1.2] tracking-tight text-[#1a191e] dark:text-white">
                 Et malesuada fames ac turpis
@@ -81,7 +81,8 @@ export default function Blog() {
                     <Image
                       src={facebook}
                       alt="facebook image"
-                      layout="intrinsic"
+                      width={0}
+                      height={0}
                       className="cursor-pointer dark:bg-white"
                     />
                   </li>
@@ -89,7 +90,8 @@ export default function Blog() {
                     <Image
                       src={linkdIn}
                       alt="linkdIn image"
-                      layout="intrinsic"
+                      width={0}
+                      height={0}
                       className="cursor-pointer dark:bg-white"
                     />
                   </li>
@@ -97,7 +99,8 @@ export default function Blog() {
                     <Image
                       src={twitter}
                       alt="twitter image"
-                      layout="intrinsic"
+                      width={0}
+                      height={0}
                       className="cursor-pointer dark:bg-white"
                     />
                   </li>
@@ -105,7 +108,8 @@ export default function Blog() {
                     <Image
                       src={instagram}
                       alt="instagram image"
-                      layout="intrinsic"
+                      width={0}
+                      height={0}
                       className="cursor-pointer dark:bg-white"
                     />
                   </li>
@@ -139,7 +143,8 @@ export default function Blog() {
               <Image
                 src={blogImage1}
                 alt="blogimg1 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className="mx-auto"
               />
               <div className="mt-3 lg:mt-6">
@@ -162,7 +167,8 @@ export default function Blog() {
               <Image
                 src={blogImage5}
                 alt="blogimg5 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className="mx-auto"
               />
               <div className="mt-3 lg:mt-6">
@@ -186,7 +192,8 @@ export default function Blog() {
                 <Image
                   src={blogImage}
                   alt="blogimg image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className="rounded-xl overflow-hidden mx-auto"
                 />
               </Link>

@@ -36,7 +36,7 @@ export default function Blogs() {
           </ul>
         </div>
         <div className="blogcontent grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mt-6 sm:mt-10 lg:mt-14 xl:mt-16">
-          <div className="blocard">
+          <div className="blocard" data-attribute="all">
             <Link href={`Blogs/${"Blog"}`}>
               <Image
                 src={blogImage}
@@ -64,7 +64,7 @@ export default function Blogs() {
               </ul>
             </div>
           </div>
-          <div className="blocard">
+          <div className="blocard" data-attribute="all products">
             <Image
               src={blogImage1}
               alt="blogimg1 image"
@@ -87,7 +87,7 @@ export default function Blogs() {
               </ul>
             </div>
           </div>
-          <div className="blocard">
+          <div className="blocard" data-attribute="all technology">
             <Image
               src={blogImage2}
               alt="blogimg2 image"
@@ -113,7 +113,7 @@ export default function Blogs() {
               </ul>
             </div>
           </div>
-          <div className="blocard">
+          <div className="blocard" data-attribute="all technology">
             <Image
               src={blogImage3}
               alt="blogimg3 image"
@@ -139,7 +139,7 @@ export default function Blogs() {
               </ul>
             </div>
           </div>
-          <div className="blocard">
+          <div className="blocard" data-attribute="all app">
             <Image
               src={blogImage4}
               alt="blogimg4 image"
@@ -165,7 +165,7 @@ export default function Blogs() {
               </ul>
             </div>
           </div>
-          <div className="blocard">
+          <div className="blocard" data-attribute="all app">
             <Image
               src={blogImage5}
               alt="blogimg5 image"

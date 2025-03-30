@@ -1,7 +1,7 @@
 "use client";
+import Link from "next/link";
 import { AlignJustify, ChevronDown, MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
-import Link from "next/link";
 import React, { useState } from "react";
 import MegaMenu from "../dropdown/MegaMenu";
 import { usePathname } from "next/navigation";
@@ -50,7 +50,9 @@ export default function Navbar() {
                   <Link
                     href={item.href}
                     className={`py-1.5 px-2 lg:p-[8px_8px_8px_12px] hover:bg-[#eee] dark:hover:bg-[#ffffff32] text-[#1a191e] dark:text-white rounded-[3px] lg:rounded-[6px] flex items-center gap-1 sm:gap-2 ${
-                      pathName === item.href ? "bg-[#eee]" : ""
+                      pathName === item.href
+                        ? "bg-[#eee] dark:bg-[#ffffff32]"
+                        : ""
                     }`}
                   >
                     {item.name}

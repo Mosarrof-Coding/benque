@@ -45,7 +45,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../ui/accordion";
+} from "../../components/ui/accordion";
 
 export default function Frontpage() {
   return (
@@ -142,8 +142,9 @@ export default function Frontpage() {
                 <Image
                   src={frontcard}
                   alt="moss"
-                  layout="intrinsic"
-                  className=""
+                  width={0}
+                  height={0}
+                  className="max-w-[260px] md:max-w-[280px] lg:max-w-[320px] xl:max-w-full"
                 />
               </div>
             </div>
@@ -162,7 +163,7 @@ export default function Frontpage() {
               <div className="bankcards grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 lg:gap-6 xl:gap-8 mt-8 sm:mt-12 lg:mt-16">
                 <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
-                    <Image src={badge3} alt="badge3" layout="intrinsic" />
+                    <Image src={badge3} alt="badge3" width={0} height={0} />
                   </div>
                   <h5 className="text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight mb-1 sm:mb-2">
                     Instant <br />
@@ -176,7 +177,7 @@ export default function Frontpage() {
                 {/* ===== */}
                 <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
-                    <Image src={badge4} alt="badge3" layout="intrinsic" />
+                    <Image src={badge4} alt="badge3" width={0} height={0} />
                   </div>
                   <h5 className="text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight mb-1 sm:mb-2">
                     Saving
@@ -191,7 +192,7 @@ export default function Frontpage() {
                 {/* ===== */}
                 <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
-                    <Image src={badge5} alt="badge3" layout="intrinsic" />
+                    <Image src={badge5} alt="badge3" width={0} height={0} />
                   </div>
                   <h5 className="text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight mb-1 sm:mb-2">
                     Mobile
@@ -206,7 +207,7 @@ export default function Frontpage() {
                 {/* ===== */}
                 <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
-                    <Image src={badge6} alt="badge3" layout="intrinsic" />
+                    <Image src={badge6} alt="badge3" width={0} height={0} />
                   </div>
                   <h5 className="text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight mb-1 sm:mb-2">
                     Advanced
@@ -221,7 +222,7 @@ export default function Frontpage() {
                 {/* ===== */}
                 <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
-                    <Image src={badge7} alt="badge3" layout="intrinsic" />
+                    <Image src={badge7} alt="badge3" width={0} height={0} />
                   </div>
                   <h5 className="text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight mb-1 sm:mb-2">
                     Virtual
@@ -236,7 +237,7 @@ export default function Frontpage() {
                 {/* ===== */}
                 <div className="card p-4 sm:p-6 lg:p-8 border-2 border-[#e8e8e8] dark:border-white/30 rounded-[10px] lg:rounded-[16px]">
                   <div className="max-w-[30px] sm:max-w-[40px] lg:max-w-full mb-2 sm:mb-4 ">
-                    <Image src={badge8} alt="badge3" layout="intrinsic" />
+                    <Image src={badge8} alt="badge3" width={0} height={0} />
                   </div>
                   <h5 className="text-[18px] sm:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight mb-1 sm:mb-2">
                     Contactless
@@ -255,7 +256,8 @@ export default function Frontpage() {
                 <Image
                   src={currentbalance}
                   alt="moss"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className=""
                 />
               </div>
@@ -318,7 +320,8 @@ export default function Frontpage() {
                 <Image
                   src={transactions}
                   alt="moss"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className=""
                 />
               </div>
@@ -362,7 +365,8 @@ export default function Frontpage() {
               <Image
                 src={Frame1}
                 alt="Frame1 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -376,7 +380,8 @@ export default function Frontpage() {
               <Image
                 src={Frame2}
                 alt="Frame1 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -390,7 +395,8 @@ export default function Frontpage() {
               <Image
                 src={Frame3}
                 alt="Frame1 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -404,7 +410,8 @@ export default function Frontpage() {
               <Image
                 src={Frame4}
                 alt="Frame1 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -418,7 +425,8 @@ export default function Frontpage() {
               <Image
                 src={Frame5}
                 alt="Frame1 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className=""
               />
               <div className="mt-2 sm:mt-3 lg:mt-5 flex flex-col gap-0.5 sm:gap-1 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white">
@@ -497,7 +505,8 @@ export default function Frontpage() {
               <Image
                 src={notifycard}
                 alt="Frame1 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className=""
               />
             </div>
@@ -512,7 +521,7 @@ export default function Frontpage() {
               <Image
                 src={Webflow_logo1}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -522,7 +531,7 @@ export default function Frontpage() {
               <Image
                 src={Shopify_1}
                 alt="Shopify_1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -532,7 +541,7 @@ export default function Frontpage() {
               <Image
                 src={Zapier_logo1}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -542,7 +551,7 @@ export default function Frontpage() {
               <Image
                 src={bitcoin}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -553,7 +562,7 @@ export default function Frontpage() {
               <Image
                 src={PayPal1}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -564,7 +573,7 @@ export default function Frontpage() {
               <Image
                 src={PayPal1}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -574,7 +583,7 @@ export default function Frontpage() {
               <Image
                 src={Mastercard}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -584,7 +593,7 @@ export default function Frontpage() {
               <Image
                 src={Visa_2021}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -594,7 +603,7 @@ export default function Frontpage() {
               <Image
                 src={Googlepay}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -604,7 +613,7 @@ export default function Frontpage() {
               <Image
                 src={Apple_Pay_logo1}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -614,7 +623,7 @@ export default function Frontpage() {
               <Image
                 src={Amazon_Pay_log1}
                 alt="Webflow_logo1"
-                // layout="intrinsic"
+                //width={0} height={0}
                 width={0}
                 height={0}
                 className="max-w-[60%] sm:max-w-[70%] lg:max-w-full"
@@ -696,7 +705,8 @@ export default function Frontpage() {
                 <Image
                   src={cardgroup}
                   alt="cardgroup image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className=""
                 />
                 {/* button */}
@@ -748,7 +758,8 @@ export default function Frontpage() {
                     <Image
                       src={star}
                       alt="star"
-                      layout="intrinsic"
+                      width={0}
+                      height={0}
                       className=""
                     />
                   </div>
@@ -769,7 +780,8 @@ export default function Frontpage() {
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -794,7 +806,8 @@ export default function Frontpage() {
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -821,7 +834,8 @@ export default function Frontpage() {
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -850,7 +864,8 @@ export default function Frontpage() {
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -877,7 +892,8 @@ export default function Frontpage() {
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -903,7 +919,8 @@ export default function Frontpage() {
                 <Image
                   src={rating}
                   alt="rating image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className="max-w-[80px] md:max-w-[100px] lg:max-w-[120px] xl:max-w-full mb-1 lg:mb-2"
                 />
                 <h4 className="h4 text-[18px] sm:text-[24px] lg:text-[28px] text-[#1a191e] dark:text-white leading-[1] lg:leading-[1.2] tracking-tight mb-2 lg:mb-4">
@@ -1175,7 +1192,8 @@ export default function Frontpage() {
               <Image
                 src={blogImage1}
                 alt="blogimg1 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className="mx-auto"
               />
               <div className="mt-3 lg:mt-6">
@@ -1198,7 +1216,8 @@ export default function Frontpage() {
               <Image
                 src={blogImage5}
                 alt="blogimg5 image"
-                layout="intrinsic"
+                width={0}
+                height={0}
                 className="mx-auto"
               />
               <div className="mt-3 lg:mt-6">
@@ -1222,7 +1241,8 @@ export default function Frontpage() {
                 <Image
                   src={blogImage}
                   alt="blogimg image"
-                  layout="intrinsic"
+                  width={0}
+                  height={0}
                   className="rounded-xl overflow-hidden mx-auto"
                 />
               </Link>

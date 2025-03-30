@@ -1,9 +1,9 @@
-import Frontpage from "@/components/layout/Frontpage";
+import Frontpage from "./frontpage/Frontpage";
 
 export default function HomePage() {
   return (
-    <div className="">
+    <>
       <Frontpage />
-    </div>
+    </>
   );
 }

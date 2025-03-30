@@ -20,7 +20,7 @@ export default function MegaMenu() {
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
-          className="flex items-center data-[state=open]:bg-gray-200 hover:bg-[#eee] dark:hover:bg-[#ffffff32] cursor-pointer"
+          className="flex items-center data-[state=open]:bg-[#ffffff32] hover:bg-[#eee] dark:hover:bg-[#ffffff32] cursor-pointer"
         >
           Blogs <ChevronDown strokeWidth={2.25} className="w-4 lg:w-5 ml-2" />
         </Button>

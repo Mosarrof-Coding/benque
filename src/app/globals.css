@@ -122,9 +122,10 @@
   h6,
   .ctabtn {
     font-family: var(--dmsans);
+    font-weight: 500;
   }
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border outline-ring/50 font-light lg:font-medium;
   }
   .contizer {
     @apply max-w-[1432px] px-2 sm:px-4 m-0 p-0 outline-0 mx-auto;
