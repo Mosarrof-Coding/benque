@@ -25,10 +25,10 @@ export default function MegaMenu() {
           Blogs <ChevronDown strokeWidth={2.25} className="w-4 lg:w-5 ml-2" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="mt-[20px] w-screen py-8 bg-[#f8f8f8] dark:bg-gray-500 shadow-lg hidden lg:block rounded-none">
+      <DropdownMenuContent className="mt-4 w-[100vw] py-8 bg-[#f8f8f8] dark:bg-gray-500 shadow-lg hidden lg:block rounded-none">
         <div className="contizer">
           <div className="mymenu w-full flex">
-            <div className="min-w-[280px] shrink-1">
+            <div className="min-w-[280px]">
               <h5 className="text-[18px] sm:font-[20px] text-[#1a191e] dark:text-white/90 leading-[1.2] tracking-tight mb-6 xl:mb-8">
                 Categorys
               </h5>
@@ -64,7 +64,7 @@ export default function MegaMenu() {
                 <DropdownMenuItem></DropdownMenuItem>
               </div>
             </div>
-            <div className="w-full shrink-2">
+            <div className="w-full">
               <h4 className="text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight mb-6 xl:mb-8">
                 All Articles
               </h4>

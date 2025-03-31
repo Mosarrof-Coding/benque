@@ -26,7 +26,7 @@ export const metadata = {
   keywords: "banking, finance, secure payments, modern banking, Banquee",
   author: "Banquee Team",
   icons: {
-    icon: "/favicon.svg",
+    icon: "../../public/favicon.svg",
   },
   openGraph: {
     title: "Banquee - Next-Gen Banking for Everyone",

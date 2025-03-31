@@ -45,7 +45,7 @@ export default function Support() {
       </div>
       {/* stil faq */}
       <div className="contizer2">
-        <div className="faq bg-[#5bb5a2] dark:bg-[#7281a1] rounded-[3px] sm:rounded-[6px] text-white flex sm:justify-between sm:items-center flex-wrap gap-4 p-3 lg:p-4 my-12 md:my-16 xl:my-24">
+        <div className="faq bg-[#5bb5a2] dark:bg-[#7281a1] rounded-[3px] sm:rounded-[6px] text-white flex sm:justify-between sm:items-center flex-wrap gap-8 p-3 lg:p-4 my-12 md:my-16 xl:my-24">
           <div className="phone">
             <h3 className="text-xl sm:text-2xl lg:text-[28px] leading-[1.2] tracking-tight">
               Still have questions?
