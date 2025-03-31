@@ -47,7 +47,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Banquee - Next-Gen Banking",
     description: "Experience seamless and modern banking with Banquee.",
-    site: "@banquee", // Replace with actual Twitter handle
+    site: "@banquee",
     images: ["https://yourwebsite.com/twitter-image.jpg"], // Replace with actual image
   },
 };
