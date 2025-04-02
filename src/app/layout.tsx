@@ -1,4 +1,3 @@
-// import type { Metadata } from "next";
 import { DM_Sans, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -26,17 +25,17 @@ export const metadata = {
   keywords: "banking, finance, secure payments, modern banking, Banquee",
   author: "Banquee Team",
   icons: {
-    icon: "../../public/favicon.svg",
+    icon: "/favicon.svg",
   },
   openGraph: {
     title: "Banquee - Next-Gen Banking for Everyone",
     description:
       "Experience seamless and modern banking with Banquee. Secure, fast, and tailored for you.",
-    url: "benque.vercel.app", // Replace with actual URL
+    url: "benque.vercel.app",
     type: "website",
     images: [
       {
-        url: "https://yourwebsite.com/og-image.jpg", // Replace with your OG image
+        url: "https://yourwebsite.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Banquee - Next-Gen Banking",
@@ -48,7 +47,7 @@ export const metadata = {
     title: "Banquee - Next-Gen Banking",
     description: "Experience seamless and modern banking with Banquee.",
     site: "@banquee",
-    images: ["https://yourwebsite.com/twitter-image.jpg"], // Replace with actual image
+    images: ["https://yourwebsite.com/twitter-image.jpg"],
   },
 };
 

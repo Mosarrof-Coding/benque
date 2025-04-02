@@ -3,7 +3,6 @@ import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
-  DropdownMenuItem,
 } from "../ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ChevronDown } from "lucide-react";
@@ -61,7 +60,6 @@ export default function MegaMenu() {
                     />
                   </span>
                 </button>
-                <DropdownMenuItem></DropdownMenuItem>
               </div>
             </div>
             <div className="w-full">
