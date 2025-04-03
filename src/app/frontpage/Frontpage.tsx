@@ -122,8 +122,8 @@ export default function Frontpage() {
                 >
                   Open Account
                 </Link>
-                <button className="ctabtn py-1 sm:py-2 lg:py-3 xl:py-4 px-2 sm:px-3 lg:px-4 xl:px-6 dark:border dark:border-[#5bb5a2] rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight">
-                  <span className="cursor-pointer inline-flex items-center gap-1 lg:gap-2 leading-[1]">
+                <div className="ctabtn py-1 sm:py-2 lg:py-3 xl:py-4 px-2 sm:px-3 lg:px-4 xl:px-6 rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight">
+                  <button className="cursor-pointer inline-flex items-center gap-1 lg:gap-2">
                     Compare Card
                     <ArrowRight
                       size={22}
@@ -133,8 +133,8 @@ export default function Frontpage() {
                       size={24}
                       className="text-[#5bb5a2] hidden lg:block"
                     />
-                  </span>
-                </button>
+                  </button>
+                </div>
               </div>
             </div>
             <div className="md:pr-2 lg:pr-6 xl:pr-9 mt-8 sm:mt-0 flex justify-center sm:justify-end">
@@ -717,6 +717,7 @@ export default function Frontpage() {
                   >
                     Open Account
                   </Link>
+
                   <button className="ctabtn cursor-pointer py-1 sm:py-2 lg:py-3 xl:py-4 px-2 sm:px-3 lg:px-4 xl:px-6 border border-[#e8e8e8] dark:border-[#5bb5a2] rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight leading-1">
                     <span className="inline-flex items-center gap-1 lg:gap-2">
                       Compare Card
@@ -753,7 +754,7 @@ export default function Frontpage() {
             <div className="right flex justify-center items-end w-fit">
               {/* button */}
               <button className="ctabtn rounded-[3px] lg:rounded-[6px] text-[16px] lg:text-[18px] text-[#5bb5a2] tracking-tight">
-                <div className="cursor-pointer flex items-center gap-1 lg:gap-2">
+                <div className="cursor-pointer flex items-center gap-1 sm:gap-2 lg:gap-4">
                   <div className="max-w-[24px] sm:max-w-[30px] lg:max-w-full">
                     <Image
                       src={star}
