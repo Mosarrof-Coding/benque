@@ -24,7 +24,7 @@ export default function Compare() {
       {/* Compare hero */}
       <div className="bg-[#e8f2ee] dark:bg-gray-600">
         <div className="contizer">
-          <div className="xl:mx-auto flex flex-col md:flex-row items-center gap-6 sm:gap-8 lg:gap-0">
+          <div className="xl:mx-auto flex flex-col md:flex-row items-center gap-0 sm:gap-8 lg:gap-0">
             <div className="left w-full py-12 lg:py-18 xl:py-32">
               <h5 className="text-[18px] sm:font-[20px] text-[#1a191e] dark:text-white/90 leading-[1.2] tracking-tight mb-2 lg:mb-4">
                 Compare Cards
@@ -34,7 +34,7 @@ export default function Compare() {
                 card for you
               </h2>
             </div>
-            <div className="w-full sm:pr-2 lg:pr-12 xl:pr-[100px] flex justify-center md:justify-end self-end">
+            <div className="w-full sm:pr-2 lg:pr-12 xl:pr-[100px] flex justify-center md:justify-end self-end md:pt-8">
               <div className="w-fit">
                 <Image
                   src={cardcompare}
@@ -49,13 +49,12 @@ export default function Compare() {
           </div>
         </div>
       </div>
-
       {/* alt card */}
       <div className="contizer">
         {/* main div */}
         <div className="flex flex-col gap-8 md:gap-12 lg:gap-16 xl:gap-24 py-12 md:py-16 xl:py-24">
           {/* cards */}
-          <div className="idealcard max-w-[1000px] mx-auto sm:ms-auto sm:mx-px grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6 lg:gap-10 xl:gap-16">
+          <div className="idealcard mx-auto lg:max-w-[1000px] lg:ms-auto lg:mx-px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-6 lg:gap-10 xl:gap-16">
             <div className="membercard text-center">
               <h6 className="ctgry flex items-center justify-center gap-1 sm:gap-2 text-[18px] lg:text-[20px] text-[#1a191e] dark:text-white/80 leading-[1.2] tracking-tight">
                 Basic
@@ -143,7 +142,7 @@ export default function Compare() {
               </div>
             </div>
           </div>
-
+          {/* table */}
           <div className="Credit_Card flex flex-col gap-8 md:gap-12 lg:gap-16 xl:gap-24">
             {/* Credit Card */}
             <article>
@@ -214,10 +213,10 @@ export default function Compare() {
                       <td className="text-center font-medium text-[15px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         -
                       </td>
-                      <td className="text-center">
+                      <td className="text-center font-medium text-[14px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         <span>Up to 2</span>
                       </td>
-                      <td className="text-center">
+                      <td className="text-center font-medium text-[14px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         <span>Unlimited</span>
                       </td>
                     </tr>
@@ -383,13 +382,13 @@ export default function Compare() {
                           </span>
                         </div>
                       </td>
-                      <td className="text-center font-medium text-[15px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
+                      <td className="text-center font-medium text-[14px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         2
                       </td>
-                      <td className="text-center">
+                      <td className="text-center font-medium text-[14px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         <span>5</span>
                       </td>
-                      <td className="text-center">
+                      <td className="text-center font-medium text-[14px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         <span>10</span>
                       </td>
                     </tr>
@@ -509,13 +508,13 @@ export default function Compare() {
                           </span>
                         </div>
                       </td>
-                      <td className="text-center font-medium text-[15px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
+                      <td className="text-center font-medium text-[14px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         2
                       </td>
-                      <td className="text-center">
+                      <td className="text-center font-medium text-[14px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         <span>5</span>
                       </td>
-                      <td className="text-center">
+                      <td className="text-center font-medium text-[14px] lg:text-[16px] text-[#1a191e] dark:text-white/80">
                         <span>10</span>
                       </td>
                     </tr>
