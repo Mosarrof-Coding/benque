@@ -4,6 +4,21 @@ import { AlignJustify, ChevronDown, MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuGroup,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuPortal,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuTrigger,
+} from "../ui/dropdown-menu";
+import { Button } from "../ui/button";
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,27 +35,85 @@ export default function Navbar() {
           >
             banquee
           </Link>
+
           {/* main nav */}
           <div className="hidden lg:flex gap-3 lg:gap-6">
             <div className="flex items-center gap-1 sm:gap-2 lg:gap-4">
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline">Open</Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="static w-full bg-[#e8e8e8]">
+                  <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuGroup>
+                    <DropdownMenuItem className="hover:bg-[#5bb5a2]">
+                      Profile
+                      <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem>
+                      Billing
+                      <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem>
+                      Settings
+                      <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem>
+                      Keyboard shortcuts
+                      <DropdownMenuShortcut>⌘K</DropdownMenuShortcut>
+                    </DropdownMenuItem>
+                  </DropdownMenuGroup>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuGroup>
+                    <DropdownMenuItem>Team</DropdownMenuItem>
+                    <DropdownMenuSub>
+                      <DropdownMenuSubTrigger>
+                        Invite users
+                      </DropdownMenuSubTrigger>
+                      <DropdownMenuPortal>
+                        <DropdownMenuSubContent>
+                          <DropdownMenuItem>Email</DropdownMenuItem>
+                          <DropdownMenuItem>Message</DropdownMenuItem>
+                          <DropdownMenuSeparator />
+                          <DropdownMenuItem>More...</DropdownMenuItem>
+                        </DropdownMenuSubContent>
+                      </DropdownMenuPortal>
+                    </DropdownMenuSub>
+                    <DropdownMenuItem>
+                      New Team
+                      <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
+                    </DropdownMenuItem>
+                  </DropdownMenuGroup>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem>GitHub</DropdownMenuItem>
+                  <DropdownMenuItem>Support</DropdownMenuItem>
+                  <DropdownMenuItem disabled>API</DropdownMenuItem>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem>
+                    Log out
+                    <DropdownMenuShortcut>⇧⌘Q</DropdownMenuShortcut>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
               <Link
-                href="/features"
+                href={"/features"}
                 className={`py-1.5 px-2 lg:p-[8px_8px_8px_12px] hover:bg-[#eee] dark:hover:bg-[#ffffff32] text-[#1a191e] dark:text-white rounded-[3px] lg:rounded-[6px] flex items-center gap-1 sm:gap-2 ${
                   pathName === "/features"
                     ? "bg-[#eee] dark:bg-[#ffffff32]"
                     : ""
-                } `}
-              >
-                Features
-              </Link>
-              <Link
-                href={"/compare"}
-                className={`py-1.5 px-2 lg:p-[8px_8px_8px_12px] hover:bg-[#eee] dark:hover:bg-[#ffffff32] text-[#1a191e] dark:text-white rounded-[3px] lg:rounded-[6px] flex items-center gap-1 sm:gap-2 ${
-                  pathName === "/compare" ? "bg-[#eee] dark:bg-[#ffffff32]" : ""
                 }`}
               >
-                Compare
+                Features
                 <ChevronDown strokeWidth={2.25} className="w-4 lg:w-5" />
+              </Link>
+              <Link
+                href="/compare"
+                className={`py-1.5 px-2 lg:p-[8px_8px_8px_12px] hover:bg-[#eee] dark:hover:bg-[#ffffff32] text-[#1a191e] dark:text-white rounded-[3px] lg:rounded-[6px] flex items-center gap-1 sm:gap-2 ${
+                  pathName === "/compare" ? "bg-[#eee] dark:bg-[#ffffff32]" : ""
+                } `}
+              >
+                compare
               </Link>
               <Link
                 href={"/support"}
@@ -146,7 +219,6 @@ export default function Navbar() {
                     Blogs
                   </Link>
                 </div>
-
                 {/* login part */}
                 <div className="resister flex flex-col gap-4 mt-4 pt-4 border-t border-[#e8e8e8] dark:border-[#e8e8e860]">
                   <Link

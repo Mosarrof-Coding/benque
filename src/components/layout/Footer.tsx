@@ -3,27 +3,27 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="pb-8 xl:pb-12 font-geist-mono border-t border-[#e8e8e8] dark:border-white/10 dark:bg-white/2">
-      <nav className="max-w-[832px] lg:max-w-[1032px] 2xl:max-w-[1432px] px-4 mx-auto py-12 lg:py-16 xl:py-24 border-b border-[#e8e8e8] dark:border-white/10">
+    <footer className="dark:bg-white/2 pb-8 xl:pb-12 border-[#e8e8e8] dark:border-white/10 border-t font-geist-mono">
+      <nav className="mx-auto px-4 py-12 lg:py-16 xl:py-24 border-[#e8e8e8] dark:border-white/10 border-b max-w-[832px] lg:max-w-[1032px] 2xl:max-w-[1432px]">
         <div className="grid grid-cols-12">
           <div className="col-span-12 md:col-span-3 lg:col-span-4">
             <Link
               href={"/"}
-              className="logo text-[#5bb5a2] text-2xl lg:text-[28px] :text-[36px] font-bold "
+              className="font-bold text-[#5bb5a2] :text-[36px] lg:text-[28px] text-2xl logo"
             >
               banquee.
             </Link>
           </div>
-          <div className="flex justify-between gap-8 flex-wrap pt-4 col-span-12 md:col-span-9 lg:col-span-8">
+          <div className="flex flex-wrap justify-between gap-8 col-span-12 md:col-span-9 lg:col-span-8 pt-4">
             <div>
-              <h4 className="font-semibold text-[18px] lg:text-[20px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] dark:text-white/90 mb-5 lg:mb-7">
+              <h4 className="mb-5 lg:mb-7 font-semibold text-[#1A191E] text-[18px] lg:text-[20px] dark:text-white/90 leading-[1.4] tracking-[-0.03em]">
                 About
               </h4>
               <ul className="flex flex-col gap-4">
                 <li>
                   <Link
                     href="/about"
-                    className="min-w-fit font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="min-w-fit font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     About
                   </Link>
@@ -31,7 +31,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="/pricing"
-                    className="min-w-fit font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="min-w-fit font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Pricing
                   </Link>
@@ -39,7 +39,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="/support"
-                    className="min-w-fit font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="min-w-fit font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Support
                   </Link>
@@ -49,14 +49,14 @@ export default function Footer() {
 
             {/* Blog Section */}
             <div>
-              <h4 className="font-semibold text-[18px] lg:text-[20px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] dark:text-white/90 mb-5 lg:mb-7">
+              <h4 className="mb-5 lg:mb-7 font-semibold text-[#1A191E] text-[18px] lg:text-[20px] dark:text-white/90 leading-[1.4] tracking-[-0.03em]">
                 Blog
               </h4>
               <ul className="flex flex-col gap-2">
                 <li>
                   <Link
                     href="/blog/products"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Products
                   </Link>
@@ -64,7 +64,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="/blog/technology"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Technology
                   </Link>
@@ -72,7 +72,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="/blog/crypto"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Crypto
                   </Link>
@@ -82,14 +82,14 @@ export default function Footer() {
 
             {/* Webflow Section */}
             <div>
-              <h4 className="font-semibold text-[18px] lg:text-[20px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] dark:text-white/90 mb-5 lg:mb-7">
+              <h4 className="mb-5 lg:mb-7 font-semibold text-[#1A191E] text-[18px] lg:text-[20px] dark:text-white/90 leading-[1.4] tracking-[-0.03em]">
                 Webflow
               </h4>
               <ul className="flex flex-col gap-4">
                 <li>
                   <Link
                     href="/webflow/styleguide"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Styleguide
                   </Link>
@@ -97,7 +97,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="/webflow/licensing"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Licensing
                   </Link>
@@ -105,7 +105,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="/webflow/changelog"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Changelog
                   </Link>
@@ -115,7 +115,7 @@ export default function Footer() {
 
             {/* Social Media Section */}
             <div>
-              <h4 className="font-semibold text-[18px] lg:text-[20px] leading-[1.4] tracking-[-0.03em] text-[#1A191E] dark:text-white/90 mb-5 lg:mb-7">
+              <h4 className="mb-5 lg:mb-7 font-semibold text-[#1A191E] text-[18px] lg:text-[20px] dark:text-white/90 leading-[1.4] tracking-[-0.03em]">
                 Social Media
               </h4>
               <ul className="flex flex-col gap-4">
@@ -124,7 +124,7 @@ export default function Footer() {
                     href="https://twitter.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Twitter
                   </a>
@@ -134,7 +134,7 @@ export default function Footer() {
                     href="https://facebook.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Facebook
                   </a>
@@ -144,7 +144,7 @@ export default function Footer() {
                     href="https://instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-[16px] leading-[1.6] text-[#1a191e70] dark:text-white/60 dark:hover:text-white/80 transision-all hover:text-[#1A191E90]"
+                    className="font-medium text-[#1a191e70] text-[16px] hover:text-[#1A191E90] dark:hover:text-white/80 dark:text-white/60 leading-[1.6] transision-all"
                   >
                     Instagram
                   </a>
@@ -154,9 +154,9 @@ export default function Footer() {
           </div>
         </div>
       </nav>
-      <div className="copyright pt-4 max-w-[832px] lg:max-w-[1032px] xl:max-w-[1432px] px-4 mx-auto">
-        <div className="powerd flex flex-col sm:flex-row justify-between flex-wrap gap-2">
-          <p className="text-[12px] sm:text-[14px] font-medium leading-[1.6] text-[#1a191e80] dark:text-white">
+      <div className="mx-auto px-4 pt-4 max-w-[832px] lg:max-w-[1032px] xl:max-w-[1432px] copyright">
+        <div className="flex sm:flex-row flex-col flex-wrap justify-between gap-2 powerd">
+          <p className="font-medium text-[#1a191e80] text-[12px] sm:text-[14px] dark:text-white leading-[1.6]">
             © Made by{" "}
             <span className="text-[#5bb5a2]">
               <a
@@ -178,7 +178,7 @@ export default function Footer() {
               </a>
             </span>
           </p>
-          <ul className="text-[10px] sm:text-[14px] font-medium leading-[1.6] text-[#1a191e80] flex gap-4 lg:gap-8 dark:text-white">
+          <ul className="flex gap-4 lg:gap-8 font-medium text-[#1a191e80] text-[10px] sm:text-[14px] dark:text-white leading-[1.6]">
             <li className="cursor-pointer">Impressum</li>
             <li className="cursor-pointer">Mission</li>
           </ul>

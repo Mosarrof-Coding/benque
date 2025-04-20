@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <div className="h4 min-h-[91vh] grid place-items-center text-lg lg:text-xl text-[#ea0707] text-center">
       <div className="contizer pb-12 lg:pb-36">
-        <p className=" flex items-center mb-1 sm:mb-2 lg:mb-3">
+        <p className="flex items-center mb-1 sm:mb-2 lg:mb-3">
           Page not Found! 404.☹
         </p>
         <Link
